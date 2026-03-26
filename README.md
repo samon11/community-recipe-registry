@@ -61,13 +61,14 @@ sparkrun show @community/my-awesome-recipe
 
 Got a recipe that screams? Prove it.
 
-Submit your recipe benchmark to [Spark Arena](https://spark-arena.com) to benchmark your recipes and see how they stack up. Publish your numbers and show the community what DGX Spark can do.
+Submit your recipe benchmark to [Spark Arena](https://spark-arena.com) to benchmark your recipes and see how they stack
+up. Publish your numbers and show the community what DGX Spark can do.
 
 ```
 # Login to Spark Arena (if not already logged in) -- see https://spark-arena.com for details
 sparkrun arena login
 
-# Benchmark your recipes (this will run the recipe and upload the result to Spark Arena in one step)
+# Benchmark your recipes (this will run the recipe, benchmark it, stop it, and upload the result to Spark Arena in one step)
 sparkrun arena benchmark @community/my-awesome-recipe
 ```
 
